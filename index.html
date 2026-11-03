@@ -2,775 +2,790 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>Mahita Fertility & IVF Centre | IVF, Fertility & Women's Care Hyderabad</title>
-
-  <meta name="description" content="Mahita Fertility & IVF Centre, KPHB Hyderabad, offers fertility evaluation, IVF, IUI, ICSI, pregnancy care, maternity, gynaecology and laparoscopic surgery under Dr. Mahita.">
-
-  <meta name="keywords" content="Mahita Fertility, IVF Centre Hyderabad, IVF treatment, IUI, ICSI, infertility treatment, pregnancy care, maternity care, gynaecologist KPHB, PCOS treatment, Hyderabad">
-
-  <meta name="author" content="Mahita Fertility & IVF Centre">
-
-  <link rel="canonical" href="https://mahitafertility.com/">
-
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body {
-      font-family: Arial, Helvetica, sans-serif;
-      background: #fff9fc;
-      color: #333;
-      line-height: 1.6;
-    }
-
-    a {
-      text-decoration: none;
-    }
-
-    /* TOP SOCIAL MEDIA LINE */
-
-    .topbar {
-      background: #75134e;
-      padding: 11px 4%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 25px;
-      flex-wrap: wrap;
-    }
-
-    .topbar a {
-      color: white;
-      font-size: 14px;
-      font-weight: bold;
-    }
-
-    .topbar a:hover {
-      color: #ffd5e9;
-    }
-
-    /* WEBSITE HEADING */
-
-    .heading {
-      background: linear-gradient(120deg, #fff0f6, #f8dce9);
-      padding: 17px 10px;
-      text-align: center;
-      border-bottom: 3px solid #a32b69;
-    }
-
-    .heading h1 {
-      color: #85134f;
-      font-size: 29px;
-      letter-spacing: .4px;
-    }
-
-    .heading p {
-      color: #69465a;
-      font-size: 15px;
-      margin-top: 4px;
-    }
-
-    /* DOCTOR PROFILE AND IMAGE */
-
-    .hero {
-      max-width: 1150px;
-      margin: 24px auto;
-      padding: 20px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 25px;
-      background: white;
-      border-radius: 14px;
-      box-shadow: 0 4px 18px rgba(120, 20, 75, .10);
-    }
-
-    .doctor-info {
-      flex: 1;
-      padding: 10px;
-    }
-
-    .doctor-info h2 {
-      color: #941c5b;
-      font-size: 27px;
-      margin-bottom: 9px;
-    }
-
-    .doctor-info h3 {
-      color: #69304e;
-      font-size: 19px;
-      margin-bottom: 10px;
-    }
-
-    .doctor-info p {
-      font-size: 15px;
-      margin-bottom: 9px;
-    }
-
-    .doctor-info .qualification {
-      color: #8a2459;
-      font-weight: bold;
-    }
-
-    .doctor-photo {
-      width: 250px;
-      flex-shrink: 0;
-      text-align: center;
-    }
-
-    .doctor-photo img {
-      width: 100%;
-      max-height: 290px;
-      object-fit: cover;
-      border-radius: 12px;
-      border: 4px solid #f1c5da;
-    }
-
-    .doctor-photo p {
-      font-weight: bold;
-      color: #85134f;
-      margin-top: 5px;
-    }
-
-    /* CONTACT BUTTONS */
-
-    .contact-buttons {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 12px;
-      margin-top: 15px;
-    }
-
-    .contact-buttons a {
-      display: inline-block;
-      background: #941c5b;
-      color: white;
-      padding: 9px 17px;
-      border-radius: 25px;
-      font-weight: bold;
-      font-size: 14px;
-    }
-
-    .contact-buttons a:hover {
-      background: #551039;
-    }
-
-    /* SECTION HEADINGS */
-
-    .section-title {
-      text-align: center;
-      color: #85134f;
-      font-size: 27px;
-      margin: 35px 0 8px;
-    }
-
-    .section-description {
-      text-align: center;
-      color: #666;
-      margin: 0 15px 23px;
-    }
-
-    /* TREATMENT CARDS */
-
-    .treatments {
-      max-width: 1150px;
-      margin: auto;
-      padding: 10px 18px 30px;
-    }
-
-    .category-title {
-      color: #8d1854;
-      font-size: 22px;
-      margin: 25px 0 15px;
-      padding: 9px 14px;
-      border-left: 5px solid #d54b91;
-      background: #fceaf3;
-      border-radius: 4px;
-    }
-
-    .treatment-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 17px;
-    }
-
-    .treatment-card {
-      background: white;
-      padding: 19px;
-      border-radius: 10px;
-      border: 1px solid #f0d4e2;
-      box-shadow: 0 3px 10px rgba(120, 20, 75, .06);
-      transition: .25s;
-    }
-
-    .treatment-card:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 6px 16px rgba(120, 20, 75, .13);
-    }
-
-    .treatment-card h3 {
-      color: #941c5b;
-      font-size: 18px;
-      margin-bottom: 8px;
-    }
-
-    .treatment-card p {
-      font-size: 14px;
-      color: #555;
-    }
-
-    .treatment-card a {
-      display: inline-block;
-      color: #a32165;
-      font-weight: bold;
-      font-size: 13px;
-      margin-top: 10px;
-    }
-
-    /* SPECIALIZATIONS */
-
-    .specializations {
-      background: #fceaf3;
-      padding: 30px 15px;
-      text-align: center;
-    }
-
-    .specializations h2 {
-      color: #85134f;
-      margin-bottom: 20px;
-    }
-
-    .specialization-list {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 15px;
-    }
-
-    .specialization-list span {
-      background: white;
-      color: #84164e;
-      padding: 12px 23px;
-      border-radius: 25px;
-      font-weight: bold;
-      box-shadow: 0 2px 7px #e9c9d9;
-    }
-
-    /* PATIENT JOURNEY */
-
-    .journey {
-      max-width: 1100px;
-      margin: 30px auto;
-      padding: 15px;
-      text-align: center;
-    }
-
-    .journey h2 {
-      color: #85134f;
-      margin-bottom: 18px;
-    }
-
-    .journey-grid {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 15px;
-    }
-
-    .journey-item {
-      background: white;
-      padding: 18px;
-      border-radius: 10px;
-      border: 1px solid #f0d4e2;
-    }
-
-    .journey-item h3 {
-      color: #941c5b;
-      margin-bottom: 7px;
-    }
-
-    /* CONTACT SECTION */
-
-    .contact {
-      background: linear-gradient(120deg, #85134f, #bd4784);
-      color: white;
-      text-align: center;
-      padding: 35px 15px;
-    }
-
-    .contact h2 {
-      font-size: 27px;
-      margin-bottom: 12px;
-    }
-
-    .contact p {
-      margin: 7px;
-    }
-
-    .contact a {
-      color: white;
-      font-weight: bold;
-    }
-
-    .contact .call {
-      display: inline-block;
-      background: white;
-      color: #85134f;
-      padding: 10px 20px;
-      margin: 12px 5px;
-      border-radius: 25px;
-    }
-
-    /* FOOTER */
-
-    footer {
-      background: #45112f;
-      color: white;
-      padding: 20px 10px;
-      text-align: center;
-      font-size: 13px;
-    }
-
-    footer a {
-      color: #ffd5e9;
-      margin: 0 7px;
-    }
-
-    @media(max-width: 768px) {
-      .hero {
-        flex-direction: column-reverse;
-        text-align: center;
-      }
-
-      .doctor-photo {
-        width: 210px;
-      }
-
-      .contact-buttons {
-        justify-content: center;
-      }
-
-      .treatment-grid {
-        grid-template-columns: repeat(2, 1fr);
-      }
-
-      .journey-grid {
-        grid-template-columns: repeat(2, 1fr);
-      }
-
-      .heading h1 {
-        font-size: 23px;
-      }
-    }
-
-    @media(max-width: 480px) {
-      .treatment-grid {
-        grid-template-columns: 1fr;
-      }
-
-      .journey-grid {
-        grid-template-columns: 1fr;
-      }
-
-      .topbar {
-        gap: 12px;
-      }
-
-      .topbar a {
-        font-size: 12px;
-      }
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Mahita Fertility & IVF Centre | Hyderabad</title>
+
+<meta name="description" content="Mahita Fertility & IVF Centre Hyderabad provides fertility treatment, IVF, IUI, ICSI, maternity, pregnancy care and gynaecological services under Dr. Mahita Rani Katasani.">
+
+<meta name="keywords" content="Mahita Fertility, IVF Centre Hyderabad, IVF treatment, IUI, ICSI, infertility, maternity, pregnancy care, gynaecology, PCOS, KPHB">
+
+<link rel="canonical" href="https://mahitafertility.com/">
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #fff8fc;
+  color: #333;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* TOP SOCIAL MEDIA LINKS */
+
+.topbar {
+  background: #75134e;
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.topbar a {
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.topbar a:hover {
+  color: #ffd2e7;
+}
+
+/* WEBSITE HEADING */
+
+.heading {
+  text-align: center;
+  padding: 18px 10px;
+  background: linear-gradient(120deg, #fff0f6, #f8dce9);
+  border-bottom: 3px solid #a32b69;
+}
+
+.heading h1 {
+  color: #85134f;
+  font-size: 29px;
+}
+
+.heading p {
+  color: #69465a;
+  font-size: 15px;
+}
+
+/* DOCTOR PROFILE */
+
+.hero {
+  max-width: 1150px;
+  margin: 25px auto;
+  padding: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+  background: white;
+  border-radius: 14px;
+  box-shadow: 0 4px 18px rgba(120,20,75,.10);
+}
+
+.doctor-info {
+  flex: 1;
+}
+
+.doctor-info h2 {
+  color: #941c5b;
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+.doctor-info h3 {
+  color: #69304e;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.qualification {
+  color: #941c5b;
+  font-weight: bold;
+}
+
+.doctor-info p {
+  margin-bottom: 9px;
+}
+
+.doctor-photo {
+  width: 245px;
+  flex-shrink: 0;
+  text-align: center;
+}
+
+.doctor-photo img {
+  width: 100%;
+  max-height: 290px;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 4px solid #f1c5da;
+}
+
+.doctor-photo p {
+  color: #85134f;
+  font-weight: bold;
+}
+
+/* BUTTONS */
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 18px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 19px;
+  background: #941c5b;
+  color: white;
+  border-radius: 25px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: #551039;
+}
+
+.appointment {
+  background: #bd397b;
+}
+
+.appointment:hover {
+  background: #75134e;
+}
+
+/* TREATMENT SECTION */
+
+.treatments {
+  max-width: 1150px;
+  margin: auto;
+  padding: 20px;
+}
+
+.section-title {
+  text-align: center;
+  color: #85134f;
+  font-size: 27px;
+  margin: 20px 0 8px;
+}
+
+.section-description {
+  text-align: center;
+  color: #666;
+  margin-bottom: 25px;
+}
+
+.category-title {
+  color: #8d1854;
+  font-size: 21px;
+  margin: 27px 0 15px;
+  padding: 10px 14px;
+  border-left: 5px solid #d54b91;
+  background: #fceaf3;
+}
+
+.treatment-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 17px;
+}
+
+.treatment-card {
+  background: white;
+  padding: 19px;
+  border-radius: 10px;
+  border: 1px solid #f0d4e2;
+  box-shadow: 0 3px 10px rgba(120,20,75,.06);
+  transition: .25s;
+}
+
+.treatment-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(120,20,75,.13);
+}
+
+.treatment-card h3 {
+  color: #941c5b;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.treatment-card p {
+  font-size: 14px;
+  color: #555;
+}
+
+.treatment-card a {
+  display: inline-block;
+  color: #a32165;
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: 13px;
+}
+
+/* SPECIALIZATIONS */
+
+.specializations {
+  background: #fceaf3;
+  padding: 30px 15px;
+  text-align: center;
+}
+
+.specializations h2 {
+  color: #85134f;
+  margin-bottom: 20px;
+}
+
+.specialization-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.specialization-list span {
+  background: white;
+  color: #84164e;
+  padding: 11px 22px;
+  border-radius: 25px;
+  font-weight: bold;
+}
+
+/* PATIENT JOURNEY */
+
+.journey {
+  max-width: 1100px;
+  margin: 30px auto;
+  padding: 15px;
+  text-align: center;
+}
+
+.journey h2 {
+  color: #85134f;
+  margin-bottom: 20px;
+}
+
+.journey-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+
+.journey-item {
+  background: white;
+  padding: 18px;
+  border: 1px solid #f0d4e2;
+  border-radius: 10px;
+}
+
+.journey-item h3 {
+  color: #941c5b;
+  margin-bottom: 8px;
+}
+
+/* APPOINTMENT SECTION */
+
+.booking {
+  text-align: center;
+  background: #fff0f6;
+  padding: 35px 15px;
+}
+
+.booking h2 {
+  color: #85134f;
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.booking p {
+  margin-bottom: 15px;
+}
+
+/* CONTACT SECTION */
+
+.contact {
+  background: linear-gradient(120deg, #85134f, #bd4784);
+  color: white;
+  text-align: center;
+  padding: 35px 15px;
+}
+
+.contact h2 {
+  font-size: 27px;
+  margin-bottom: 12px;
+}
+
+.contact p {
+  margin: 7px;
+}
+
+.contact a {
+  color: white;
+  font-weight: bold;
+}
+
+.contact .call {
+  display: inline-block;
+  background: white;
+  color: #85134f;
+  padding: 10px 20px;
+  margin: 12px 5px;
+  border-radius: 25px;
+}
+
+/* FOOTER - NO SOCIAL MEDIA LINKS */
+
+footer {
+  background: #45112f;
+  color: white;
+  padding: 20px 10px;
+  text-align: center;
+  font-size: 13px;
+}
+
+footer a {
+  color: #ffd5e9;
+  margin: 0 7px;
+}
+
+/* MOBILE RESPONSIVENESS */
+
+@media(max-width:768px) {
+
+  .hero {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .doctor-photo {
+    width: 210px;
+  }
+
+  .buttons {
+    justify-content: center;
+  }
+
+  .treatment-grid {
+    grid-template-columns: repeat(2,1fr);
+  }
+
+  .journey-grid {
+    grid-template-columns: repeat(2,1fr);
+  }
+
+  .heading h1 {
+    font-size: 23px;
+  }
+}
+
+@media(max-width:480px) {
+
+  .treatment-grid,
+  .journey-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .topbar {
+    gap: 13px;
+  }
+
+  .topbar a {
+    font-size: 12px;
+  }
+}
+</style>
 </head>
 
 <body>
 
-  <!-- FIRST LINE: WEBSITE AND SOCIAL MEDIA LINKS -->
+<!-- TOP LINE: SOCIAL MEDIA AND WEBSITE LINKS (ONLY ONCE) -->
 
-  <div class="topbar">
-    <a href="https://mahitafertility.com/" target="_blank">Website</a>
+<div class="topbar">
 
-    <a href="https://www.youtube.com/@MahitaFertilityCentre"
-       target="_blank">YouTube</a>
+<a href="https://mahitafertility.com/" target="_blank">
+Website
+</a>
 
-    <a href="https://www.instagram.com/mahitafertility"
-       target="_blank">Instagram</a>
+<a href="https://www.youtube.com/@MahitaFertilityCentre"
+target="_blank">
+YouTube
+</a>
 
-    <a href="https://www.facebook.com/profile.php?id=61595397417709"
-       target="_blank">Facebook</a>
-  </div>
+<a href="https://www.instagram.com/mahitafertility"
+target="_blank">
+Instagram
+</a>
 
-  <!-- SECOND LINE: MAIN WEBSITE HEADING -->
+<a href="https://www.facebook.com/profile.php?id=61595397417709"
+target="_blank">
+Facebook
+</a>
 
-  <header class="heading">
-    <h1>MAHITA FERTILITY & IVF CENTRE</h1>
-    <p>Fertility | IVF | Maternity | Obstetrics | Gynaecology</p>
-    <p>KPHB, Hyderabad</p>
-  </header>
+</div>
 
-  <!-- DOCTOR PROFILE LEFT AND MAHITA.JPEG RIGHT -->
+<!-- MAIN WEBSITE HEADING -->
 
-  <section class="hero">
+<header class="heading">
 
-    <div class="doctor-info">
+<h1>MAHITA FERTILITY & IVF CENTRE</h1>
 
-      <h2>Dr. Mahita</h2>
+<p>Fertility | IVF | Maternity | Obstetrics | Gynaecology</p>
 
-      <h3>Consultant Obstetrician, Gynaecologist & Fertility Specialist</h3>
+<p>KPHB, Hyderabad</p>
 
-      <p class="qualification">
-        MBBS, MS (OBG)
-      </p>
+</header>
 
-      <p>
-        16+ years of experience in women's healthcare.
-      </p>
+<!-- DOCTOR PROFILE LEFT AND IMAGE RIGHT -->
 
-      <p>
-        Dr. Mahita specialises in obstetrics, gynaecology,
-        fertility care and laparoscopic surgery.
-      </p>
+<section class="hero">
 
-      <p>
-        At Mahita Fertility & IVF Centre, we provide
-        personalised fertility and women's healthcare,
-        with compassionate support and informed treatment choices.
-      </p>
+<div class="doctor-info">
 
-      <div class="contact-buttons">
+<h2>Dr. Mahita Rani Katasani</h2>
 
-        <a href="tel:6304796378">Call: 6304796378</a>
+<h3>Consultant Obstetrician, Gynaecologist & Fertility Specialist</h3>
 
-        <a href="tel:8247509077">Call: 8247509077</a>
+<p class="qualification">
+MBBS, MS (OBG), Fellowship in Reproductive Medicine,
+CFRM (Australia)
+</p>
 
-        <a href="https://mahitafertility.com/about-dr-mahita/"
-           target="_blank">Doctor Profile</a>
+<p>
+Dr. Mahita provides fertility care, reproductive medicine,
+obstetric and gynaecological consultations and laparoscopic
+surgical services.
+</p>
 
-      </div>
+<p>
+At Mahita Fertility & IVF Centre, our approach focuses on
+individualised treatment, compassionate care and informed
+decisions for every patient.
+</p>
 
-    </div>
+<div class="buttons">
 
-    <div class="doctor-photo">
+<a class="btn"
+href="https://mahitafertility.com/"
+target="_blank">
+Doctor Profile
+</a>
 
-      <!-- Keep Mahita.jpeg in the GitHub repository root folder -->
+<a class="btn appointment"
+href="https://mahitafertility.com/"
+target="_blank">
+Book an Appointment
+</a>
 
-      <img src="Mahita.jpeg"
-           alt="Dr. Mahita at Mahita Fertility and IVF Centre">
+</div>
 
-      <p>Dr. Mahita</p>
+</div>
 
-    </div>
+<div class="doctor-photo">
 
-  </section>
+<img src="Mahita.jpeg"
+alt="Dr. Mahita Rani Katasani - Mahita Fertility Centre">
 
-  <!-- TREATMENT OPTIONS -->
+<p>Dr. Mahita Rani Katasani</p>
 
-  <main class="treatments">
+</div>
 
-    <h2 class="section-title">
-      Our Fertility, IVF & Women's Healthcare Services
-    </h2>
+</section>
 
-    <p class="section-description">
-      Comprehensive care for fertility, pregnancy, maternity
-      and gynaecological health.
-    </p>
+<!-- ALL TREATMENT OPTIONS -->
 
-    <!-- FERTILITY TREATMENTS -->
+<main class="treatments">
 
-    <h2 class="category-title">
-      1. Fertility & Infertility Treatments
-    </h2>
+<h2 class="section-title">
+Our Fertility, IVF & Women's Healthcare Services
+</h2>
 
-    <div class="treatment-grid">
+<p class="section-description">
+Comprehensive healthcare for fertility, pregnancy,
+maternity and women's health.
+</p>
+
+<!-- FERTILITY -->
+
+<h2 class="category-title">
+1. Fertility & Infertility Treatments
+</h2>
+
+<div class="treatment-grid">
+
+<div class="treatment-card">
+<h3>Infertility Evaluation</h3>
+<p>Female and male fertility assessment, investigations and personalised treatment planning.</p>
+<a href="https://mahitafertility.com/" target="_blank">Learn More →</a>
+</div>
+
+<div class="treatment-card">
+<h3>IUI Treatment</h3>
+<p>Intrauterine insemination for selected infertility conditions.</p>
+<a href="https://mahitafertility.com/" target="_blank">Learn More →</a>
+</div>
+
+<div class="treatment-card">
+<h3>IVF Treatment</h3>
+<p>In vitro fertilisation involving egg retrieval, laboratory fertilisation and embryo transfer.</p>
+<a href="https://mahitafertility.com/" target="_blank">Learn More →</a>
+</div>
+
+<div class="treatment-card">
+<h3>ICSI Treatment</h3>
+<p>Intracytoplasmic sperm injection for selected fertility cases.</p>
+<a href="https://mahitafertility.com/" target="_blank">Learn More →</a>
+</div>
+
+<div class="treatment-card">
+<h3>PESA</h3>
+<p>Percutaneous Epididymal Sperm Aspiration for selected male infertility cases.</p>
+<a href="https://mahitafertility.com/" target="_blank">Learn More →</a>
+</div>
+
+<div class="treatment-card">
+<h3>TESA</h3>
+<p>Testicular Sperm Aspiration for selected sperm retrieval indications.</p>
+<a href="https://mahitafertility.com/" target="_blank">Learn More →</a>
+</div>
+
+<div class="treatment-card">
+<h3>IMSI</h3>
+<p>Intracytoplasmic Morphologically Selected Sperm Injection in selected IVF cases.</p>
+<a href="https://mahitafertility.com/" target="_blank">Learn More →</a>
+</div>
+
+</div>
+
+<!-- IVF AND SURGERY -->
+
+<h2 class="category-title">
+2. IVF-Related Procedures & Laparoscopic Surgery
+</h2>
+
+<div class="treatment-grid">
+
+<div class="treatment-card">
+<h3>Hysteroscopy</h3>
+<p>Evaluation and treatment of selected conditions inside the uterine cavity.</p>
+<a href="https://mahitafertility.com/" target="_blank">Learn More →</a>
+</div>
+
+<div class="treatment-card">
+<h3>Laparoscopy</h3>
+<p>Minimally invasive surgical management of selected gynaecological and pelvic conditions.</p>
+<a href="https://mahitafertility.com/" target="_blank">Learn More →</a>
+</div>
+
+</div>
+
+<!-- MATERNITY -->
+
+<h2 class="category-title">
+3. Maternity, Pregnancy & Obstetric Care
+</h2>
+
+<div class="treatment-grid">
 
-      <div class="treatment-card">
-        <h3>Infertility Evaluation</h3>
-        <p>Assessment of female and male fertility, medical history
-        and investigations to understand possible causes of infertility.</p>
-        <a href="https://mahitafertility.com/treatments/">Learn More →</a>
-      </div>
-
-      <div class="treatment-card">
-        <h3>IUI – Intrauterine Insemination</h3>
-        <p>A fertility procedure involving the placement of prepared
-        sperm into the uterus around ovulation when clinically appropriate.</p>
-        <a href="https://mahitafertility.com/treatments/">Learn More →</a>
-      </div>
-
-      <div class="treatment-card">
-        <h3>IVF – In Vitro Fertilisation</h3>
-        <p>Advanced assisted reproductive treatment involving egg
-        retrieval, fertilisation in the laboratory and embryo transfer.</p>
-        <a href="https://mahitafertility.com/treatments/">Learn More →</a>
-      </div>
-
-      <div class="treatment-card">
-        <h3>ICSI Treatment</h3>
-        <p>Intracytoplasmic Sperm Injection involves injecting
-        an individual sperm into an egg as part of selected IVF cycles.</p>
-        <a href="https://mahitafertility.com/treatments/">Learn More →</a>
-      </div>
-
-      <div class="treatment-card">
-        <h3>PESA</h3>
-        <p>Percutaneous Epididymal Sperm Aspiration is a sperm
-        retrieval procedure considered in selected male infertility cases.</p>
-        <a href="https://mahitafertility.com/treatments/">Learn More →</a>
-      </div>
-
-      <div class="treatment-card">
-        <h3>TESA</h3>
-        <p>Testicular Sperm Aspiration is a sperm retrieval
-        technique used in selected male fertility conditions.</p>
-        <a href="https://mahitafertility.com/treatments/">Learn More →</a>
-      </div>
-
-      <div class="treatment-card">
-        <h3>IMSI</h3>
-        <p>Intracytoplasmic Morphologically Selected Sperm Injection
-        uses high-magnification sperm assessment in selected cases.</p>
-        <a href="https://mahitafertility.com/treatments/">Learn More →</a>
-      </div>
-
-    </div>
-
-    <!-- IVF RELATED AND SURGICAL TREATMENTS -->
-
-    <h2 class="category-title">
-      2. IVF-Related Procedures & Laparoscopic Surgery
-    </h2>
-
-    <div class="treatment-grid">
-
-      <div class="treatment-card">
-        <h3>Hysteroscopy</h3>
-        <p>Evaluation of the uterine cavity to identify and,
-        where appropriate, manage certain uterine conditions.</p>
-        <a href="https://mahitafertility.com/treatments/">Learn More →</a>
-      </div>
-
-      <div class="treatment-card">
-        <h3>Laparoscopy</h3>
-        <p>Minimally invasive keyhole surgery for selected
-        gynaecological and pelvic conditions.</p>
-        <a href="https://mahitafertility.com/treatments/">Learn More →</a>
-      </div>
-
-    </div>
-
-    <!-- MATERNITY AND OBSTETRICS -->
-
-    <h2 class="category-title">
-      3. Maternity, Pregnancy & Obstetric Care
-    </h2>
-
-    <div class="treatment-grid">
-
-      <div class="treatment-card">
-        <h3>Pregnancy Care</h3>
-        <p>Antenatal consultations, pregnancy monitoring,
-        guidance and follow-up throughout pregnancy.</p>
-        <a href="https://mahitafertility.com/treatments/">Learn More →</a>
-      </div>
-
-      <div class="treatment-card">
-        <h3>High-Risk Pregnancy Care</h3>
-        <p>Individualised assessment, monitoring and care planning
-        for pregnancies requiring additional attention.</p>
-        <a href="https://mahitafertility.com/treatments/">Learn More →</a>
-      </div>
-
-      <div class="treatment-card">
-        <h3>Obstetric Care</h3>
-        <p>Medical guidance and support for women's health
-        during pregnancy and related stages.</p>
-        <a href="https://mahitafertility.com/treatments/">Learn More →</a>
-      </div>
-
-    </div>
-
-    <!-- GYNAECOLOGICAL TREATMENTS -->
-
-    <h2 class="category-title">
-      4. Gynaecology & Women's Healthcare
-    </h2>
-
-    <div class="treatment-grid">
-
-      <div class="treatment-card">
-        <h3>PCOS / PCOD Treatment</h3>
-        <p>Evaluation and individual management of hormonal
-        symptoms, menstrual irregularities and fertility concerns.</p>
-        <a href="https://mahitafertility.com/treatments/">Learn More →</a>
-      </div>
-
-      <div class="treatment-card">
-        <h3>Menstrual Disorders</h3>
-        <p>Assessment and care for irregular periods,
-        painful menstruation and heavy menstrual bleeding.</p>
-        <a href="https://mahitafertility.com/treatments/">Learn More →</a>
-      </div>
-
-      <div class="treatment-card">
-        <h3>Fibroid Treatment</h3>
-        <p>Assessment and discussion of appropriate medical
-        and surgical options for uterine fibroids.</p>
-        <a href="https://mahitafertility.com/treatments/">Learn More →</a>
-      </div>
-
-      <div class="treatment-card">
-        <h3>Endometriosis Treatment</h3>
-        <p>Evaluation and management of endometriosis-related
-        pain and fertility concerns.</p>
-        <a href="https://mahitafertility.com/treatments/">Learn More →</a>
-      </div>
-
-      <div class="treatment-card">
-        <h3>Menopause Management</h3>
-        <p>Guidance and care for symptoms and health concerns
-        associated with the menopause transition.</p>
-        <a href="https://mahitafertility.com/treatments/">Learn More →</a>
-      </div>
-
-      <div class="treatment-card">
-        <h3>Preventive Gynaecology</h3>
-        <p>Preventive women's healthcare, routine reviews
-        and appropriate health screening discussions.</p>
-        <a href="https://mahitafertility.com/treatments/">Learn More →</a>
-      </div>
-
-      <div class="treatment-card">
-        <h3>General Gynaecology</h3>
-        <p>Consultation and assessment for reproductive,
-        menstrual, hormonal and other women's health concerns.</p>
-        <a href="https://mahitafertility.com/treatments/">Learn More →</a>
-      </div>
-
-    </div>
-
-  </main>
-
-  <!-- CENTRE SPECIALIZATIONS -->
-
-  <section class="specializations">
-
-    <h2>Our Specializations</h2>
-
-    <div class="specialization-list">
-
-      <span>Fertility Care</span>
-      <span>IVF Treatment</span>
-      <span>Obstetrics</span>
-      <span>Maternity Care</span>
-      <span>Gynaecology</span>
-      <span>Laparoscopic Surgery</span>
-
-    </div>
-
-  </section>
-
-  <!-- PATIENT JOURNEY -->
-
-  <section class="journey">
-
-    <h2>Your Patient Journey</h2>
-
-    <div class="journey-grid">
-
-      <div class="journey-item">
-        <h3>01. Consultation</h3>
-        <p>Discuss your medical history, concerns and expectations.</p>
-      </div>
-
-      <div class="journey-item">
-        <h3>02. Assessment</h3>
-        <p>Understand your health through appropriate clinical evaluation.</p>
-      </div>
-
-      <div class="journey-item">
-        <h3>03. Treatment Plan</h3>
-        <p>Explore suitable treatment options based on individual needs.</p>
-      </div>
-
-      <div class="journey-item">
-        <h3>04. Follow-up</h3>
-        <p>Receive guidance and follow-up throughout your care.</p>
-      </div>
-
-    </div>
-
-  </section>
-
-  <!-- CONTACT DETAILS -->
-
-  <section class="contact">
-
-    <h2>Mahita Fertility & IVF Centre</h2>
-
-    <p>4th Floor, SV Complex, KPHB Road No. 1,</p>
-    <p>Hyderabad – 500072, Telangana, India.</p>
-
-    <p>
-      <strong>Contact Numbers:</strong>
-    </p>
-
-    <a class="call" href="tel:6304796378">
-      6304796378
-    </a>
-
-    <a class="call" href="tel:8247509077">
-      8247509077
-    </a>
-
-    <p>
-      <a href="https://mahitafertility.com/" target="_blank">
-        Visit Our Official Website
-      </a>
-    </p>
-
-    <p>
-      <a href="https://www.youtube.com/@MahitaFertilityCentre"
-         target="_blank">YouTube</a> |
-
-      <a href="https://www.instagram.com/mahitafertility"
-         target="_blank">Instagram</a> |
-
-      <a href="https://www.facebook.com/profile.php?id=61595397417709"
-         target="_blank">Facebook</a>
-    </p>
-
-    <p>
-      Your care begins with a conversation.
-    </p>
-
-  </section>
-
-  <!-- FOOTER -->
-
-  <footer>
-
-    <p>
-      © 2026 Mahita Fertility & IVF Centre.
-      All Rights Reserved.
-    </p>
-
-    <p>
-      <a href="https://mahitafertility.com/">Home</a> |
-      <a href="https://mahitafertility.com/about-dr-mahita/">About Dr. Mahita</a> |
-      <a href="https://mahitafertility.com/treatments/">Treatments</a>
-    </p>
-
-    <p>
-      Fertility | IVF | Maternity | Obstetrics | Gynaecology
-    </p>
-
-  </footer>
+<div class="treatment-card">
+<h3>Pregnancy Care</h3>
+<p>Antenatal consultations, monitoring and guidance throughout pregnancy.</p>
+<a href="https://mahitafertility.com/" target="_blank">Learn More →</a>
+</div>
+
+<div class="treatment-card">
+<h3>High-Risk Pregnancy Care</h3>
+<p>Individualised assessment and monitoring for pregnancies requiring additional attention.</p>
+<a href="https://mahitafertility.com/" target="_blank">Learn More →</a>
+</div>
+
+<div class="treatment-card">
+<h3>Obstetric Care</h3>
+<p>Medical consultations and support during pregnancy and related stages.</p>
+<a href="https://mahitafertility.com/" target="_blank">Learn More →</a>
+</div>
+
+</div>
+
+<!-- GYNAECOLOGY -->
+
+<h2 class="category-title">
+4. Gynaecology & Women's Healthcare
+</h2>
+
+<div class="treatment-grid">
+
+<div class="treatment-card">
+<h3>PCOS / PCOD Treatment</h3>
+<p>Evaluation and management of hormonal symptoms, menstrual irregularities and fertility concerns.</p>
+<a href="https://mahitafertility.com/" target="_blank">Learn More →</a>
+</div>
+
+<div class="treatment-card">
+<h3>Menstrual Disorders</h3>
+<p>Assessment of irregular periods, painful menstruation and heavy menstrual bleeding.</p>
+<a href="https://mahitafertility.com/" target="_blank">Learn More →</a>
+</div>
+
+<div class="treatment-card">
+<h3>Fibroid Treatment</h3>
+<p>Assessment and management options for uterine fibroids.</p>
+<a href="https://mahitafertility.com/" target="_blank">Learn More →</a>
+</div>
+
+<div class="treatment-card">
+<h3>Endometriosis Treatment</h3>
+<p>Evaluation and management of endometriosis-related pain and fertility concerns.</p>
+<a href="https://mahitafertility.com/" target="_blank">Learn More →</a>
+</div>
+
+<div class="treatment-card">
+<h3>Menopause Management</h3>
+<p>Consultations and guidance for menopause-related symptoms and health concerns.</p>
+<a href="https://mahitafertility.com/" target="_blank">Learn More →</a>
+</div>
+
+<div class="treatment-card">
+<h3>Preventive Gynaecology</h3>
+<p>Routine women's healthcare, preventive consultations and appropriate screening guidance.</p>
+<a href="https://mahitafertility.com/" target="_blank">Learn More →</a>
+</div>
+
+<div class="treatment-card">
+<h3>General Gynaecology</h3>
+<p>Assessment and care for reproductive, hormonal and other women's health conditions.</p>
+<a href="https://mahitafertility.com/" target="_blank">Learn More →</a>
+</div>
+
+</div>
+
+</main>
+
+<!-- CENTRE SPECIALIZATIONS -->
+
+<section class="specializations">
+
+<h2>Our Specializations</h2>
+
+<div class="specialization-list">
+
+<span>Fertility Care</span>
+<span>IVF Treatment</span>
+<span>IUI & ICSI</span>
+<span>Obstetrics</span>
+<span>Maternity Care</span>
+<span>Gynaecology</span>
+<span>Laparoscopic Surgery</span>
+
+</div>
+
+</section>
+
+<!-- PATIENT JOURNEY -->
+
+<section class="journey">
+
+<h2>Your Patient Journey</h2>
+
+<div class="journey-grid">
+
+<div class="journey-item">
+<h3>01. Consultation</h3>
+<p>Discuss your medical history, concerns and expectations.</p>
+</div>
+
+<div class="journey-item">
+<h3>02. Assessment</h3>
+<p>Understand your health through appropriate clinical evaluation.</p>
+</div>
+
+<div class="journey-item">
+<h3>03. Treatment Plan</h3>
+<p>Explore suitable treatment options based on individual needs.</p>
+</div>
+
+<div class="journey-item">
+<h3>04. Follow-up</h3>
+<p>Receive guidance and follow-up throughout your care.</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- APPOINTMENT BUTTON CONNECTED TO WEBSITE -->
+
+<section class="booking">
+
+<h2>Book Your Appointment</h2>
+
+<p>
+Take the first step towards your fertility and women's
+healthcare journey.
+</p>
+
+<a class="btn appointment"
+href="https://mahitafertility.com/"
+target="_blank">
+Book an Appointment Online
+</a>
+
+</section>
+
+<!-- CONTACT DETAILS -->
+
+<section class="contact">
+
+<h2>Mahita Fertility & IVF Centre</h2>
+
+<p>4th Floor, SV Complex, KPHB Road No. 1,</p>
+
+<p>Hyderabad – 500072, Telangana, India.</p>
+
+<p><strong>Contact Numbers</strong></p>
+
+<a class="call" href="tel:6304796378">
+6304796378
+</a>
+
+<a class="call" href="tel:8247509077">
+8247509077
+</a>
+
+<p>
+Official Website:
+<a href="https://mahitafertility.com/" target="_blank">
+mahitafertility.com
+</a>
+</p>
+
+</section>
+
+<!-- FOOTER: NO REPEATED SOCIAL MEDIA LINKS -->
+
+<footer>
+
+<p>
+© 2026 Mahita Fertility & IVF Centre.
+All Rights Reserved.
+</p>
+
+<p>
+Fertility | IVF | Maternity | Obstetrics | Gynaecology
+</p>
+
+<p>
+Hyderabad, Telangana, India.
+</p>
+
+</footer>
 
 </body>
 </html>
